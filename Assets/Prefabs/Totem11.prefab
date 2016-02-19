@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495384}
+  - 212: {fileID: 21249208}
+  - 114: {fileID: 11420618}
+  - 60: {fileID: 6015302}
+  - 50: {fileID: 5033344}
+  m_Layer: 0
+  m_Name: Totem11
+  m_TagString: totem
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495384
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.837, y: -0.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!50 &5033344
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156326}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &6015302
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156326}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: 0.34975076, y: -0.42566198}
+      - {x: 0.47290158, y: -0.24172837}
+      - {x: 0.44617295, y: -0.04163581}
+      - {x: 0.3157103, y: -0.03237623}
+      - {x: 0.4125967, y: 0.064121366}
+      - {x: 0.38558078, y: 0.1890862}
+      - {x: 0.25155163, y: 0.2234121}
+      - {x: 0.33115244, y: 0.3289749}
+      - {x: 0.24645853, y: 0.500834}
+      - {x: 0.13968682, y: 0.6352457}
+      - {x: 0.14625764, y: 0.69977343}
+      - {x: -0.15529394, y: 0.6984627}
+      - {x: -0.12885642, y: 0.6354114}
+      - {x: -0.15638638, y: 0.5836024}
+      - {x: -0.24168634, y: 0.54036963}
+      - {x: -0.33447504, y: 0.33873415}
+      - {x: -0.26348948, y: 0.22113836}
+      - {x: -0.26478457, y: 0.2221114}
+      - {x: -0.39658523, y: 0.19380939}
+      - {x: -0.4180653, y: 0.086916804}
+      - {x: -0.284451, y: -0.052405417}
+      - {x: -0.45373464, y: -0.0421589}
+      - {x: -0.48003364, y: -0.1765067}
+      - {x: -0.35521793, y: -0.42663473}
+      - {x: -0.3613186, y: -0.5888358}
+      - {x: 0.3506248, y: -0.5935342}
+--- !u!114 &11420618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779d3e0ce7b3f264ab3a11c937ef8c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spr:
+  - {fileID: 21300000, guid: 23e292a04c4419c49a369ce19e8d7781, type: 3}
+  - {fileID: 21300000, guid: f0076bdfabbf01b48b98142b030a7dad, type: 3}
+  - {fileID: 21300000, guid: 14b3afbbc217ed742a62fc7161f2bb92, type: 3}
+  - {fileID: 21300000, guid: 36d8db71055d3c542a37e53a8a0142bb, type: 3}
+  - {fileID: 21300000, guid: 67b1bfc368b8fb640825ab4cc52c0dc4, type: 3}
+  - {fileID: 21300000, guid: 68bb560dc75180a47b2d7d65ae0cf470, type: 3}
+  totemDestroyAnim: {fileID: 196172, guid: 878ebac6d19f49b418c88de389e972da, type: 2}
+--- !u!212 &21249208
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156326}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 17912329
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 23e292a04c4419c49a369ce19e8d7781, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: totemDestroyAnim
+      value: 
+      objectReference: {fileID: 196172, guid: 878ebac6d19f49b418c88de389e972da, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 156326}
+  m_IsPrefabParent: 1

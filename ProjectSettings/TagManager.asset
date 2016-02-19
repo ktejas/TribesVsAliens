@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - totem
+  - stone1
+  - stone
+  - spike
+  - BallParent
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Clouds
+    uniqueID: 3061969153
+    locked: 0
+  - name: Tree
+    uniqueID: 974687307
+    locked: 0
+  - name: Bush
+    uniqueID: 624663107
+    locked: 0
+  - name: Trajectory
+    uniqueID: 3936533477
+    locked: 0
+  - name: Totem
+    uniqueID: 17912329
+    locked: 0
+  - name: Ground
+    uniqueID: 2488278475
+    locked: 0
+  - name: Player
+    uniqueID: 1673797833
+    locked: 0
+  - name: Ball
+    uniqueID: 3737517861
+    locked: 0
+  - name: UI
+    uniqueID: 3643912483
+    locked: 0
