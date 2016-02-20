@@ -9,8 +9,9 @@ public class LevelsGUI : MonoBehaviour {
 	void OnMouseUpAsButton()
 	{
         //Application.LoadLevel ("Level"+level);
-        SceneManager.LoadScene("Level" + level);
-	}
+        SceneManager.LoadScene("LoadingScene");
+        Controller.sceneToLoad = "Level" + level;
+    }
 
 	/*void OnGUI(){
 		if (GUI.Button(new Rect(Screen.width / 3 - 250, Screen.height * 0.5f, 250, 150), "Level 1"))
