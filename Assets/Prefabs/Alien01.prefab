@@ -191,13 +191,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d9277846a68f847b56fdc63a41be11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spr:
-  - {fileID: 21300000, guid: 8aeaaeb2611edd542995cd933ea06cc0, type: 3}
-  - {fileID: 21300000, guid: e9d43a90d50c23b4dba32106cbd5cfa4, type: 3}
-  - {fileID: 21300000, guid: 2f508035f074dae4e882c7c4d0b085c0, type: 3}
-  - {fileID: 21300000, guid: 3dc36ac3be890724b87f572c5b678cc8, type: 3}
-  - {fileID: 21300000, guid: 57c0d0b082a80eb44be6c355b8892f9b, type: 3}
-  - {fileID: 21300000, guid: d57310178acb8d04d949790242223a5e, type: 3}
+  healthSprites:
+  - {fileID: 21300000, guid: 68c01c63f9020de4fa4425f98aac555e, type: 3}
+  - {fileID: 21300000, guid: eb31ac140e562fb44a4f790c508c79f9, type: 3}
+  - {fileID: 21300000, guid: 7d417facf312e574cb80306a3744d5e7, type: 3}
+  - {fileID: 21300000, guid: 8f5ae82c9287d06489eb92aa2c807945, type: 3}
+  - {fileID: 21300000, guid: 41be3b4959ed56641be03558b71a848d, type: 3}
+  - {fileID: 21300000, guid: 58fa6756cf8139b40b31235e8e2efdae, type: 3}
   totemDestroyAnim: {fileID: 196172, guid: 878ebac6d19f49b418c88de389e972da, type: 2}
 --- !u!198 &19826000
 ParticleSystem:
@@ -1715,7 +1715,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -557449435
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8aeaaeb2611edd542995cd933ea06cc0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68c01c63f9020de4fa4425f98aac555e, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0

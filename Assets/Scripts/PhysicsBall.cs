@@ -73,5 +73,11 @@ public class PhysicsBall : MonoBehaviour {
 			Instantiate (ballBreakAnim, transform.position, Quaternion.identity);
 			InstantiateAndDestroyBall ();
 		}
+
+        if(coll.gameObject.tag == "star")
+        {
+            Controller.stars++;
+            Destroy(coll.gameObject);
+        }
 	}
 }

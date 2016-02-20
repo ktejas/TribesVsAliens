@@ -248,7 +248,7 @@ GameObject:
   - 4: {fileID: 333414541}
   - 114: {fileID: 333414540}
   m_Layer: 0
-  m_Name: UIManager
+  m_Name: LoadingManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

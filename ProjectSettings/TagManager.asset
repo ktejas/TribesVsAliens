@@ -9,6 +9,7 @@ TagManager:
   - stone
   - spike
   - BallParent
+  - star
   layers:
   - Default
   - TransparentFX

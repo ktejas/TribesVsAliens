@@ -7,7 +7,9 @@ public class Controller : MonoBehaviour {
 	public static Controller instance;
 	public Transform ball;
 	public GameObject activeChar;
+
     public static string sceneToLoad = "Levels";
+    public static int stars = 0; //Read from file
 
 	void Awake()
 	{

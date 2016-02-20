@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class AlienDestroy : MonoBehaviour {
 
     private SpriteRenderer sprRen;
-    public Sprite[] spr;
+    public Sprite[] healthSprites;
     private int animState = 0;
     public GameObject totemDestroyAnim;
 
@@ -21,18 +21,18 @@ public class AlienDestroy : MonoBehaviour {
 
     void ApplyDamage(int i)
     {
-        if (animState < spr.Length)
+        if (animState < healthSprites.Length)
         {
             Instantiate(totemDestroyAnim, transform.position + new Vector3(0.0f, 0.34f, 0.0f), Quaternion.identity);
             animState += i;
-            if (animState == spr.Length - 1)
+            if (animState == healthSprites.Length - 1)
             {
                 //Application.LoadLevel("Levels");
                 SceneManager.LoadScene("Levels");
             }
             else
             {
-                sprRen.sprite = spr[animState];
+                sprRen.sprite = healthSprites[animState];
             }
 
             /*
